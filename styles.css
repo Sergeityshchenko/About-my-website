@@ -7,14 +7,44 @@ body {
     margin: 100px;
     padding: 40px;
     background-color: aliceblue;
-    
-
+    border-radius: 25px;
+    box-shadow: inset 0 0 45px rgba(0, 0, 22, 0.2)
 }
 .email {
     font-size: 15px;
     margin-left: calc(100% - 240px);
+    border-radius: 15px;
 }
 .name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-
+    text-shadow: -10px 10px 5px #0808084d;
+}
+.objective:hover {
+    color: blue;
+    text-shadow: -10px 10px 5px #0808084d;  
+}
+.summary:hover {
+    color: blue;
+    text-shadow: -10px 10px 5px #0808084d; 
+}
+.skills:hover {
+    color: blue;
+    text-shadow: -10px 10px 5px #0808084d; 
+}
+.software:hover {
+    color: blue;
+    text-shadow: -10px 10px 5px #0808084d; 
+}
+.experience:hover {
+    color: blue;
+    text-shadow: -10px 10px 5px #0808084d; 
+}
+.education:hover {
+    color: blue;
+    text-shadow: -10px 10px 5px #0808084d; 
+}
+.language:hover {
+    color: blue;
+    text-shadow: -10px 10px 5px #0808084d; 
 }
