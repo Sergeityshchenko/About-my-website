@@ -1,31 +1,111 @@
-
-.container {
-    width: 80%;
-    overflow: hidden;
-    margin: 100px;
-    padding: 40px;
-    background-color: aliceblue;
-    border-radius: 25px;
-    box-shadow: inset 0 0 45px rgba(0, 0, 22, 0.2)
-}
-.blocks  {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: red;
-    width: 100%;
-    height: 100%;
-  }
-  .blocks > div {
-      width: 280px;
-      height: 280px;
-      background-color: grey;
-      margin: 10px;
-      margin-left:170px;
-      
+body {
+    padding: 0;
+    background-image: url(/front-end.jpg);
   }
   .content {
-      text-align: center;
-      margin-top: 140px;
+    padding: 15px 0;
   }
+  
+  .container {
+    width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 15px;
+  }
+  .row {
+    margin: 0 -15px;
+  }
+  .row:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+  
+  [class^="column-"] {
+    float: left;
+  
+    box-sizing: border-box;
+    padding: 0 15px;
+  
+    background-color: white;
+  }
+  
+  .column-1 {
+    width: 8.33%;
+  }
+  .column-2 {
+    width: 16.66%;
+  
+  }
+  .column-3 {
+    width: 25%;
+    background-color: greenyellow;
+    border: 1px solid pink;
+    border-radius: 50px;
+    flood-opacity: 50% 
+  }
+  .column-4 {
+    width: 33.33%;
+    background-color: greenyellow;
+    border: 1px solid pink;
+    border-radius: 30px;
+  }
+  .column-5 {
+    width: 41.66%;
+  }
+  .column-6 {
+    width: 50%;
+  }
+  .column-7 {
+    width: 58.33%;
+  }
+  .column-8 {
+    width: 66.66%;
+  }
+  .column-9 {
+    width: 75%;
+  }
+  .column-10 {
+    width: 83.33%;
+  }
+  .column-11 {
+    width: 91.66%;
+  }
+  .column-12 {
+    width: 100%;
+  }
+  .block {
+    border-top: 5px solid grey;
+  }
+  .text {
+    background-color: black;
+    color: white; 
+    width: 250px;
+    height: 90px;
+    display: block;
+    border-radius: 45px;  
+      text-align: center;
+      line-height: 90px;
+      margin: 0 auto;
+      margin-top: 60px;
+      margin-left: 36%;
+  }
+  .bay {
+    width: 170px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    text-transform: uppercase;
+  }
+  .center {
+      display: flex;
+      justify-content: center;
+      margin-top: 5px;
+  }    
+  
+ 
+  
 
  
