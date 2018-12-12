@@ -1,0 +1,31 @@
+
+.container {
+    width: 80%;
+    overflow: hidden;
+    margin: 100px;
+    padding: 40px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    box-shadow: inset 0 0 45px rgba(0, 0, 22, 0.2)
+}
+.blocks  {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+  }
+  .blocks > div {
+      width: 280px;
+      height: 280px;
+      background-color: grey;
+      margin: 10px;
+      margin-left:170px;
+      
+  }
+  .content {
+      text-align: center;
+      margin-top: 140px;
+  }
+
+ 
